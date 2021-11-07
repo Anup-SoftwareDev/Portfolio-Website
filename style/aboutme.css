@@ -59,6 +59,39 @@
     Position:absolute;
     margin-left: 230px;
     margin-top: 150px;
-  }   
+  }  
 
-  
+  .About_Me_pic img{
+    border-radius: 10%;
+  } 
+  .AboutMeSummary{
+    height: 400px;
+    Width: 500px;
+    background-color: rgba(95, 158, 160, 0.562);
+    Position:absolute;
+    border-radius: 20%;
+    Margin: 150px 0px 0 900px;
+  }
+  .StudySummary{
+    height: 400px;
+    Width: 550px;
+    background-color: cadetblue;
+    Position:absolute;
+    border-radius: 20%;
+    Margin: 580px 600px 0 850px;
+    
+  }
+  .WorkSummary{
+    height: 400px;
+    Width: 550px;
+    background-color: cadetblue;
+    Position:absolute;
+    border-radius: 20%;
+    Margin: 580px 600px 0 230px;
+   
+  }
+  h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(13, 25, 133);
+  }
