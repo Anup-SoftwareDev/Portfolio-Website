@@ -10,12 +10,12 @@
      float:right;
   }
   .stage ul li{
-      display: inline-block;
-      padding: 30px 120px;
-      color: white;
-      font-size: 20px;
-      background-color: black;
-  }
+    display: inline-block;
+    padding: 30px 115px;
+    color: white;
+    font-size: 20px;
+    background-color:rgba(17, 17, 139, 0.274);
+}
   #line{
       text-decoration: none;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
