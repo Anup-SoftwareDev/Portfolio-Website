@@ -21,8 +21,8 @@
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       color: white;
   }
-  .profile img{
-    margin-left: 30px;
+  .Resume img{
+    margin-left: 60px;
     border-radius: 30%;
   }
 
@@ -32,6 +32,9 @@
  .Linkedin img{
     margin-left: 70px;
  }
+ .email img{
+  margin-left: 60px;
+}
 
 
   nav{
