@@ -7,7 +7,7 @@
   }
   .stage ul{
      height: 50px;
-     float: right;
+     float:right;
   }
   .stage ul li{
       display: inline-block;

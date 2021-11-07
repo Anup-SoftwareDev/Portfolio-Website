@@ -7,7 +7,7 @@
   }
   .stage ul{
      height: 50px;
-     float: right;
+     float:right;
   }
   .stage ul li{
       display: inline-block;
@@ -24,7 +24,43 @@
   .contact-section{
       position: absolute;
       margin-top: 100px;
-      margin-left: 200px;
+      margin-left: 225px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   }
+  .profile img{
+    margin-left: 30px;
+    border-radius: 30%;
+  }
+
+ .GitHub img{
+    margin-left: 70px;
+ }
+ .Linkedin img{
+    margin-left: 70px;
+ }
+
+
+  nav{
+      Position:absolute;
+      height: 1000px;
+      Width: 220px;
+      background-color: rgba(22, 55, 105, 0.212);
+    
+  }
+
+
+
+  .images{
+    
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    position: absolute;
+    /*margin-left: 30px;*/
+    margin-top: 15px;
+    
+  }
+     
+
+  
