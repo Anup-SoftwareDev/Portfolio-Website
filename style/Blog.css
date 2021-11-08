@@ -1,5 +1,5 @@
 .stage {
-    background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+    
     border-radius: 1px;
     min-height: 1000px;
     position: relative;
@@ -52,11 +52,14 @@
     display:flex;
     flex-direction: column;
     gap: 50px;
-    position: absolute;
+    position: fixed;
     /*margin-left: 30px;*/
     margin-top: 15px;
     
   }
-     
+  body{
+    background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+  }
+
 
   

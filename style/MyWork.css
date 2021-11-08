@@ -1,9 +1,9 @@
 .stage {
-    background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+  
     border-radius: 1px;
-    min-height: 1000px;
+    min-height: 100vh;
     position: relative;
-    min-width: 800px;
+    min-width: 100vh;
   }
   .stage ul{
      height: 50px;
@@ -37,7 +37,7 @@
 }
 
   nav{
-      Position:absolute;
+      Position:fixed;
       height: 1000px;
       Width: 220px;
       background-color: rgba(22, 55, 105, 0.212);
@@ -115,6 +115,17 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(13, 25, 133);
   }
-     
+
+  footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(40, 14, 131);
+    text-align:center;
+    bottom: 0;
+    position:relative;
+    
+  } 
+  body{
+    background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+  }
 
   
