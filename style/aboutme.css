@@ -6,31 +6,32 @@
   min-width: 800px;
 }*/
 .stage ul{
-   height: 50px;
-   float: right;
+  height: 50px;
+  float: right;
 }
 .stage ul li{
-  display: inline-block;
-  padding: 30px 115px;
-  color: white;
-  font-size: 20px;
-  background-color:rgba(17, 17, 139, 0.274);
+  
+ display: inline-block;
+ padding: 30px 115px;
+ color: white;
+ font-size: 20px;
+ background-color:rgba(17, 17, 139, 0.274);
 }
 #line{
-    text-decoration: none;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: white;
+   text-decoration: none;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: white;
 }
 .Resume img{
-  margin-left: 60px;
-  border-radius: 30%;
+ margin-left: 60px;
+ border-radius: 30%;
 }
 
 .GitHub img{
-  margin-left: 70px;
+ margin-left: 70px;
 }
 .Linkedin img{
-  margin-left: 70px;
+ margin-left: 70px;
 }
 .email img{
 margin-left: 60px;
@@ -38,206 +39,246 @@ margin-left: 60px;
 
 
 nav{
-    Position:absolute;
-    height: 1000px;
-    Width: 220px;
-    background-color: rgba(159, 160, 161, 0.212);
-  
+   Position:absolute;
+   height: 1000px;
+   Width: 220px;
+   background-color: rgba(159, 160, 161, 0.212);
+ 
 }
 
 .images{
-  
-  display:flex;
-  flex-direction: column;
-  gap: 50px;
-  position: fixed;
-  /*margin-left: 30px;*/
-  margin-top: 15px;
-  
+ 
+ display:flex;
+ flex-direction: column;
+ gap: 50px;
+ position: fixed;
+ /*margin-left: 30px;*/
+ margin-top: 15px;
 }
-.About_Me_pic{
-  Position:absolute;
-  margin-left: 230px;
-  margin-top: 150px;
+ 
+ #About_me_pic img{
+  height: 400px;
+  Width: 500px;
+  border-radius: 20%;
+ }
+
+
+.AboutMeSummary{
+  height: 400px;
+  Width: 550px;
+  background-color: rgba(95, 158, 160, 0.562);
+  border-radius: 20%;
+  
+ }
+ .StudySummary{
+  height: 400px;
+  Width: 550px;
+  background-color: cadetblue;
+  border-radius: 20%;
+  
+  
+ }
+ .WorkSummary{
+  height: 400px;
+  Width: 550px;
+  background-color: cadetblue;
+  border-radius: 20%;
+ }
+
+ .AboutMe_Items{
+  display: flex;
+  /*flex-direction: row;*/
+  gap: 20px;
+  Margin-left: 200px;
+  Margin-top: 200px;
+  position: absolute;
+  flex-wrap: wrap;
+ }
+
+
+/*.About_Me_pic{
+ Position:absolute;
+ margin-left: 230px;
+ margin-top: 150px;
 }
 
 
 .About_Me_pic img{
-  border-radius: 10%;
+ border-radius: 10%;
 } 
 .AboutMeSummary{
-  height: 400px;
-  Width: 500px;
-  background-color: rgba(95, 158, 160, 0.562);
-  Position:absolute;
-  border-radius: 20%;
-  Margin: 150px 0px 0 900px;
+ height: 400px;
+ Width: 500px;
+ background-color: rgba(95, 158, 160, 0.562);
+ Position:absolute;
+ border-radius: 20%;
+ Margin: 150px 0px 0 900px;
 }
 .StudySummary{
-  height: 400px;
-  Width: 550px;
-  background-color: cadetblue;
-  Position:absolute;
-  border-radius: 20%;
-  Margin: 580px 600px 0 850px;
-  
-}
-.WorkSummary{
-  height: 400px;
-  Width: 550px;
-  background-color: cadetblue;
-  Position:absolute;
-  border-radius: 20%;
-  Margin: 580px 600px 0 230px;
+ height: 400px;
+ Width: 550px;
+ background-color: cadetblue;
+ Position:absolute;
+ border-radius: 20%;
+ Margin: 580px 600px 0 850px;
  
 }
+.WorkSummary{
+ height: 400px;
+ Width: 550px;
+ background-color: cadetblue;
+ Position:absolute;
+ border-radius: 20%;
+ Margin: 580px 600px 0 230px;
+
+}*/
 h1{
-  text-align: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: rgb(13, 25, 133);
+ text-align: center;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ color: rgb(13, 25, 133);
 }
 body{
-  background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+ background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
 }
 
 #hamnav{
-  display: none;
+ display: none;
 }
 
-  @media screen and (max-width: 770px) {
-    .images {
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-    gap: 30px;
-    position: fixed;
-    margin-right: 0;
-    margin-top: 15px;
-    
-    }
-    .Resume img{
-      height: 30px;
-      width: 30px;
-    }
-  
-   .GitHub img{
-    height: 30px;
-    width: 30px;
+ @media screen and (max-width: 770px) {
+   .images {
+   display:flex;
+   flex-direction: row;
+   align-content: flex-end;
+   gap: 30px;
+   position: relative;
+   margin-right: 0;
+   margin-top: 15px;
+   
    }
-   .Linkedin img{
-    height: 30px;
-    width: 30px;
+   .Resume img{
+     height: 30px;
+     width: 30px;
    }
-   .email img{
-    height: 30px;
-      width: 30px;
+ 
+  .GitHub img{
+   height: 30px;
+   width: 30px;
   }
-  .contact-section{
-    position: fixed;
-    margin-top: 270px;
-    margin-left: 20px;
-    z-index: -2;
+  .Linkedin img{
+   height: 30px;
+   width: 30px;
+  }
+  .email img{
+   height: 30px;
+     width: 30px;
+ }
+ .contact-section{
+   position: fixed;
+   margin-top: 270px;
+   margin-left: 20px;
+   z-index: -2;
 }nav{
-  Position:fixed;
-  top: 60px;
-  left: 0;
-  height: 68px;
-  Width: 700px;
-  background-color: rgba(32, 160, 81, 0.349);
-  
+ Position:fixed;
+ top: 60px;
+ left: 0;
+ height: 68px;
+ Width: 700px;
+ background-color: rgba(32, 160, 81, 0.349);
+ 
 }
 .stage ul li{
-  display: none;
+ display: none;
 }
+.AboutMe_Items{
+  display: flex;
+  /*flex-direction: row;*/
+  gap: 20px;
+  Margin-left: 20px;
+  Margin-top: 100px;
+  position: absolute;
+  flex-wrap: wrap;
+ }
 
-.About_Me_pic{
-  Position:absolute;
-  margin-left: 40px;
-  margin-top: 200px;
-  z-index: -2;
+/*.About_Me_pic{
+ Position:absolute;
+ margin-left: 40px;
+ margin-top: 200px;
+ z-index: -2;
 }
 .About_Me_pic img{
-  height: 320px;
-  border-radius: 10%;
+ height: 320px;
+ border-radius: 10%;
 } 
 .AboutMeSummary{
-  height: 320px;
-  Width: 500px;
-  Margin: 550px 0px 0 40px;
+ height: 320px;
+ Width: 500px;
+ Margin: 550px 0px 0 40px;
 
 }
 
 .StudySummary{
-  height: 320px;
-  Width: 500px;
-  Margin-left: 40px;
-  Margin-top:900px;
-  
+ height: 320px;
+ Width: 500px;
+ Margin-left: 40px;
+ Margin-top:900px;
+ 
 }
 
 .WorkSummary{
-  height: 320px;
-  Width: 500px;
-  Margin-left: 40px;
-  Margin-top:1250px;
-  
+ height: 320px;
+ Width: 500px;
+ Margin-left: 40px;
+ Margin-top:1250px;
+ 
 }
 
 /* [ON BIG SCREEN] */
 /* (A) WRAPPER */
 #hamnav {
-    display:inline-block;
-    width: 100%;
-    background: rgba(33, 39, 131, 0.24);
-  }
-  
-  /* (B) HORIZONTAL MENU ITEMS */
-  #hamitems { display: flex; }
-  #hamitems a {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    z-index: 0;
-  }
-  #hamitems a:hover { background: #401408; }
-  
-  /* (C) HIDE HAMBURGER */
-  #hamnav label, #hamburger { display: none; }
+   display:inline-block;
+   width: 100%;
+   background: rgba(33, 39, 131, 0.24);
+ }
+ 
+ /* (B) HORIZONTAL MENU ITEMS */
+ #hamitems { display: flex; }
+ #hamitems a {
+   flex-grow: 1;
+   flex-basis: 0;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   z-index: 0;
+ }
+ #hamitems a:hover { background: #401408; }
+ 
+ /* (C) HIDE HAMBURGER */
+ #hamnav label, #hamburger { display: none; }
 
 /* [ON SMALL SCREENS] */
 
-    /* (A) BREAK INTO VERTICAL MENU */
-    #hamitems a {
-      box-sizing: border-box;
-      display:block;
-      width: 100%;
-      border-top: 1px solid rgb(34, 33, 33);
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
-   
-    /* (B) SHOW HAMBURGER ICON */
-    #hamnav label { 
-      display:inline-block; 
-      color: white;
-      background: #a02620;
-      font-style:normal;
-      font-size: 1.2em;
-      padding: 20px;
-    }
+   /* (A) BREAK INTO VERTICAL MENU */
+   #hamitems a {
+     box-sizing: border-box;
+     display:block;
+     width: 100%;
+     border-top: 1px solid rgb(34, 33, 33);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
   
-    /* (C) TOGGLE SHOW/HIDE MENU */
-    #hamitems { display: none; }
-    #hamnav input:checked ~ #hamitems { display: block; }
-  }
-  
-  
-
-
-
-  
-
-
-  
+   /* (B) SHOW HAMBURGER ICON */
+   #hamnav label { 
+     display:inline-block; 
+     color: white;
+     background: #a02620;
+     font-style:normal;
+     font-size: 1.2em;
+     padding: 20px;
+   }
+ 
+   /* (C) TOGGLE SHOW/HIDE MENU */
+   #hamitems { display: none; }
+   #hamnav input:checked ~ #hamitems { display: block; }
+ }
