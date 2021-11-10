@@ -7,15 +7,16 @@
 }*/
 .stage ul{
   height: 50px;
-  float: right;
+  float:right;
 }
 .stage ul li{
   
- display: inline-block;
- padding: 30px 115px;
+ display:inline-block;
+ padding: 10px 30px;
  color: white;
  font-size: 20px;
  background-color:rgba(17, 17, 139, 0.274);
+ position: relative;
 }
 #line{
    text-decoration: none;
