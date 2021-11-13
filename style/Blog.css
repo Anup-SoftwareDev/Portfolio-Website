@@ -1,65 +1,179 @@
-.stage {
+/*.stage {
     
     border-radius: 1px;
     min-height: 1000px;
     position: relative;
     min-width: 800px;
-  }
+  }*/
   .stage ul{
-     height: 50px;
-     float:right;
-  }
-  .stage ul li{
-    display: inline-block;
-    padding: 10px 30px;
-    color: white;
-    font-size: 20px;
-    background-color:rgba(17, 17, 139, 0.274);
-}
-  #line{
-      text-decoration: none;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      color: white;
-  }
-  .Resume img{
-    margin-left: 60px;
-    border-radius: 30%;
-  }
-
- .GitHub img{
-    margin-left: 70px;
+    height: 50px;
+    float:right;
  }
- .Linkedin img{
-    margin-left: 70px;
+ .stage ul li{
+   display: inline-block;
+   padding: 10px 30px;
+   color: white;
+   font-size: 20px;
+   background-color:rgba(17, 17, 139, 0.274);
+}
+ #line{
+     text-decoration: none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: white;
+
  }
- .email img{
-  margin-left: 60px;
+ .contact-section{
+     position: absolute;
+     margin-top: 100px;
+     margin-left: 225px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+ }
+ .Resume img{
+   margin-left: 60px;
+   border-radius: 30%;
+ }
+
+.GitHub img{
+   margin-left: 70px;
+}
+.Linkedin img{
+   margin-left: 70px;
+}
+.email img{
+ margin-left: 60px;
 }
 
 
-  nav{
-      Position:absolute;
-      height: 1000px;
-      Width: 220px;
-      background-color: rgba(22, 55, 105, 0.212);
-    
-  }
+ nav{
+     Position:absolute;
+     height: 1000px;
+     Width: 220px;
+     background-color: rgba(37, 85, 5, 0.212);
+   
+ }
 
 
-
-  .images{
-    
-    display:flex;
-    flex-direction: column;
-    gap: 50px;
-    position: fixed;
-    /*margin-left: 30px;*/
-    margin-top: 15px;
-    
-  }
-  body{
-    background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
-  }
-
-
+ .images{
+   
+   display:flex;
+   flex-direction: column;
+   gap: 50px;
+   position: fixed;
+   /*margin-left: 30px;*/
+   margin-top: 15px;
+   
+ }
   
+ body{
+   background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
+ }
+
+ #hamnav{
+   display: none;
+ }
+
+ @media screen and (max-width: 770px) {
+   .images {
+   display:flex;
+   flex-direction: row;
+   align-content: flex-end;
+   gap: 30px;
+   position: relative;
+   margin-right: 0;
+   margin-top: 15px;
+   
+   }
+   .Resume img{
+     height: 30px;
+     width: 30px;
+   }
+ 
+  .GitHub img{
+   height: 30px;
+   width: 30px;
+  }
+  .Linkedin img{
+   height: 30px;
+   width: 30px;
+  }
+  .email img{
+   height: 30px;
+     width: 30px;
+ }
+ .contact-section{
+   position: fixed;
+   margin-top: 270px;
+   margin-left: 20px;
+   z-index: -2;
+}nav{
+ Position:fixed;
+ top: 60px;
+ left: 0;
+ height: 68px;
+ Width: 700px;
+ background-color: rgba(32, 160, 81, 0.349);
+ 
+}
+.stage ul li{
+ display: none;
+}
+
+/* [ON BIG SCREEN] */
+/* (A) WRAPPER */
+#hamnav {
+   display:inline-block;
+   width: 100%;
+   background: rgba(33, 39, 131, 0.24);
+ }
+ 
+ /* (B) HORIZONTAL MENU ITEMS */
+ #hamitems { display: flex; }
+ #hamitems a {
+   flex-grow: 1;
+   flex-basis: 0;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+   text-align: center;
+   z-index: 0;
+ }
+ #hamitems a:hover { background: #401408; }
+ 
+ /* (C) HIDE HAMBURGER */
+ #hamnav label, #hamburger { display: none; }
+
+/* [ON SMALL SCREENS] */
+
+   /* (A) BREAK INTO VERTICAL MENU */
+   #hamitems a {
+     box-sizing: border-box;
+     display:block;
+     width: 100%;
+     border-top: 1px solid rgb(34, 33, 33);
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+  
+   /* (B) SHOW HAMBURGER ICON */
+   #hamnav label { 
+     display:inline-block; 
+     color: white;
+     background: #a02620;
+     font-style:normal;
+     font-size: 1.2em;
+     padding: 20px;
+   }
+ 
+   /* (C) TOGGLE SHOW/HIDE MENU */
+   #hamitems { display: none; }
+   #hamnav input:checked ~ #hamitems { display: block; }
+ }
+ 
+ 
+
+
+
+ 
+
+
+ 

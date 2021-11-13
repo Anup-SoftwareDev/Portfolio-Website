@@ -201,38 +201,7 @@ body{
   flex-wrap: wrap;
  }
 
-/*.About_Me_pic{
- Position:absolute;
- margin-left: 40px;
- margin-top: 200px;
- z-index: -2;
-}
-.About_Me_pic img{
- height: 320px;
- border-radius: 10%;
-} 
-.AboutMeSummary{
- height: 320px;
- Width: 500px;
- Margin: 550px 0px 0 40px;
 
-}
-
-.StudySummary{
- height: 320px;
- Width: 500px;
- Margin-left: 40px;
- Margin-top:900px;
- 
-}
-
-.WorkSummary{
- height: 320px;
- Width: 500px;
- Margin-left: 40px;
- Margin-top:1250px;
- 
-}
 
 /* [ON BIG SCREEN] */
 /* (A) WRAPPER */

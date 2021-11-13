@@ -36,7 +36,7 @@
     background: linear-gradient(to right, rgb(74, 74, 121), rgba(8, 95, 129, 0.945));
     border-radius: 1px;
     min-height: 1000px;
-    position: relative;
+    position:relative;
     min-width: 1000px;
   }
 
@@ -50,7 +50,7 @@
     top: 150px;
     animation: myfirst 10s linear 2s infinite alternate;
   }
-  .block2 {
+  /*.block2 {
     
     width: 100px;
     height: 100px;
@@ -59,14 +59,14 @@
     left: 300px;
     top: 150px;
     animation: myfirst 10s linear 2s infinite alternate;
-  }
+  }*/
   
   @keyframes myfirst {
-    0%   {background-color:red; left:30vh; top:0vh;}
-    25%  {background-color:yellow; left:30vh; top:25vh;}
-    50%  {background-color:blue; left:30vh; top: 50vh;}
-    75%  {background-color:green; left:30vh; top: 75vh;}
-    100% {background-color:red; left:30vh; top:100vh}
+    0%   {background-color:red; left:300px; top:0vh;}
+    25%  {background-color:yellow; left:300px; top:25vh;}
+    50%  {background-color:blue; left:300px; top: 50vh;}
+    75%  {background-color:green; left:300px; top: 75vh;}
+    100% {background-color:red; left:300px; top:100vh}
   }
 
   @keyframes effect {
