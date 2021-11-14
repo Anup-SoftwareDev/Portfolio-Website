@@ -151,6 +151,10 @@ margin-left: 10px;
 .stage ul li{
  display: none;
 }
+.Blog_Posts{
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 /* [ON BIG SCREEN] */
 /* (A) WRAPPER */
