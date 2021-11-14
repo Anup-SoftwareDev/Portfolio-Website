@@ -271,7 +271,8 @@
     }
   .Page_items{
     display:flex;
-    flex-direction:column
+    flex-direction:column;
+    gap:20px;
   
   }
 
