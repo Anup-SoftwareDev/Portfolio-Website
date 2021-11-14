@@ -2,7 +2,7 @@
 
 
 
-
+/*Welcome Message styling*/
   .Welcome_msg {
     color: rgb(133, 139, 139);
     text-align: center;
@@ -14,14 +14,7 @@
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
-    /*text-align: center;*/
-    
-    /*position: fixed;
-
-    bottom: 50vh;
-    Top: 40vh;
-    Right: 50vh;
-    left:50vh;*/
+  
     animation: effect 10s linear 2s infinite alternate;
 
   }
@@ -40,6 +33,8 @@
     min-width: 1000px;
   }
 
+  /*Annimation Block Class*/
+
  .block {
     
     width: 100px;
@@ -50,16 +45,7 @@
     top: 150px;
     animation: myfirst 10s linear 2s infinite alternate;
   }
-  /*.block2 {
-    
-    width: 100px;
-    height: 100px;
-    background-color: rgb(17, 0, 255);
-    position: relative;
-    left: 300px;
-    top: 150px;
-    animation: myfirst 10s linear 2s infinite alternate;
-  }*/
+  /*Annimation using Keyframes*/
   
   @keyframes myfirst {
     0%   {background-color:red; left:300px; top:0vh;}

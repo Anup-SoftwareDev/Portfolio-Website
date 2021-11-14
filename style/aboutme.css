@@ -1,4 +1,4 @@
-
+/*Creation of Top Nav bar*/
 .stage ul{
   height: 50px;
   float:right;
@@ -17,6 +17,7 @@
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    color: white;
 }
+/*Styling left nav bar*/
 .Resume img{
   margin-left: 10px;
   border-radius: 30%;
@@ -55,7 +56,7 @@ nav{
   height: 200px;
   float:top;
 }
-
+/*Creation fo classes fro work, study and personal interest summary*/
 
 .AboutMeSummary{
   /*height: 400px;
@@ -112,6 +113,8 @@ body{
 #hamnav{
  display: none;
 }
+
+/*Smaller Screen settings*/
 
  @media screen and (max-width: 770px) {
    .images {

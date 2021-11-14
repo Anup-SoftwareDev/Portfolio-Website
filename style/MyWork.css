@@ -1,10 +1,5 @@
-/*.stage {
-  
-    border-radius: 1px;
-    min-height: 100vh;
-    position: relative;
-    min-width: 100vh;
-  }*/
+
+  /*Top Nav Bar Creation using stage class*/
   .stage ul{
      height: 50px;
      float: right;
@@ -21,6 +16,7 @@
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
       color: white;
   }
+   /*Left Nav Bar Images*/
   .Resume img{
     margin-left: 10px;
     border-radius: 30%;
@@ -68,6 +64,8 @@
     
 
   }
+
+  /*Programming language Icons*/
   .icons{
     Position:absolute;
     Margin: 250px 0 0 300px;
@@ -77,6 +75,8 @@
     /*flex-wrap: wrap;*/
 
   }
+
+  /* Classes holding information on projects history*/
   .HTML_CSS{
     
     background-color: rgba(95, 158, 160, 0.562);
@@ -132,6 +132,8 @@
   #hamnav{
     display: none;
    }
+
+   /*Mobile and TABLET VIEW SETTING*/
    
     @media screen and (max-width: 770px) {
       .images {
@@ -240,6 +242,7 @@
       z-index: -1; 
     }
 
+    /*ICONS MADE SMALLER TO ACCOMODATE SMALL SCREENS*/
     .icons{
       height: 10px;
       width: 10px; 

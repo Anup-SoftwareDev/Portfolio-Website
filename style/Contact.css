@@ -1,10 +1,4 @@
-/*.stage {
-    
-    border-radius: 1px;
-    min-height: 1000px;
-    position: relative;
-    min-width: 800px;
-  }*/
+/*Creation of top nav bar*/
   .stage ul{
      height: 50px;
      float:right;
@@ -22,6 +16,7 @@
       color: white;
 
   }
+  /*Contact Section Settings*/
   .contact-section{
       position: absolute;
       margin-top: 75px;
@@ -29,6 +24,9 @@
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
   }
+
+  /*left Nav bar settings*/
+
   .Resume img{
     margin-left: 10px;
     border-radius: 30%;
@@ -72,6 +70,8 @@
   #hamnav{
     display: none;
   }
+
+  /*Small screen setting*/
 
   @media screen and (max-width: 770px) {
     .images {

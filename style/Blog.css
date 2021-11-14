@@ -1,10 +1,4 @@
-/*.stage {
-    
-    border-radius: 1px;
-    min-height: 1000px;
-    position: relative;
-    min-width: 800px;
-  }*/
+/*Creation of Top nav bar*/
   .stage ul{
     height: 50px;
     float:right;
@@ -29,6 +23,7 @@
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
  }
+ /*Creation of left nav bar*/
  .Resume img{
   margin-left: 10px;
   border-radius: 30%;
@@ -64,6 +59,8 @@ margin-left: 10px;
    margin-top: 15px;
    
  }
+
+ /*Blog Post styling and setting*/
 
  .Blog_Posts{
 
@@ -105,6 +102,8 @@ margin-left: 10px;
  #hamnav{
    display: none;
  }
+
+ /*Smaller Screen Setting*/
 
  @media screen and (max-width: 770px) {
    .images {
