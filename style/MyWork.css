@@ -196,6 +196,7 @@
       flex-grow: 1;
       flex-basis: 0;
       padding: 20px;
+      background-color: rgb(20, 66, 109);
       color: white;
       text-decoration: none;
       text-align: center;
@@ -235,7 +236,8 @@
      
       font-size: 150%;
       margin-top: 100px;
-      margin-left: 0;   
+      margin-left: 0;  
+      z-index: -1; 
     }
 
     .icons{
@@ -243,6 +245,7 @@
       width: 10px; 
       Margin: 200px 0 0 0px;
       gap: 20px;
+      z-index: -1;
     }  
     .icons img{
       height: 40px;
@@ -253,12 +256,15 @@
       margin-top:280px;
       width: auto;
       height:auto;
+      z-index: -1;
+
       
     }
     .C_Prog{
       margin-left: 0;
       width:auto;
       height:inherit;
+      z-index: -1;
       
       
       
@@ -267,6 +273,7 @@
       margin-left: 0;
       width:auto;
       height:inherit;
+      z-index: -1;
       
       
     }
@@ -274,12 +281,14 @@
       margin-left: 0;
       width:auto;
       height:inherit;
+      z-index: -1;
       
     }
   .Page_items{
     display:flex;
     flex-direction:column;
     gap:20px;
+    
   
   }
 

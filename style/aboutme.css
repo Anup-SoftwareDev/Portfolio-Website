@@ -52,12 +52,14 @@ nav{
 }
 #About_me_pic {
   width: 550px;
+  z-index: -2;
 }
  
  #About_me_pic img{
   height: 400px;
   margin-left: 100px;
   border-radius: 20%;
+  
  }
 
 
@@ -92,6 +94,7 @@ nav{
   position: absolute;
   flex-wrap: wrap;
   align-items: center;
+  z-index: -2;
  }
 
 
@@ -183,7 +186,8 @@ nav{
    flex-basis: 0;
    padding: 20px;
    color: white;
-   text-decoration: none;
+   background-color: rgb(20, 66, 109);
+   text-decoration:none;
    text-align: center;
    z-index: 0;
  }
@@ -216,4 +220,9 @@ nav{
    /* (C) TOGGLE SHOW/HIDE MENU */
    #hamitems { display: none; }
    #hamnav input:checked ~ #hamitems { display: block; }
+
+   #About_me_pic img{
+    z-index: -5;
+    
+   }
  }
