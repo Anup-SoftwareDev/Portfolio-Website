@@ -1,0 +1,197 @@
+commit ff4a04aa28e361e1478ce6c7b84681e0e9a58ab1
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 22:58:11 2021 +1100
+
+    Subresponsive Integreity Completed and final debugging done
+
+commit 8a4fecf350f5ffe260af09c126caef26e426c840
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 20:56:26 2021 +1100
+
+    Readm.md file created
+
+commit a09aae1923affe803121b9d75cd3a3041646d961
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 19:39:51 2021 +1100
+
+    Minor bugs fixed in Work section
+
+commit ab05387b0728a6b879781ef3291984b3f1da9bcd
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 19:33:46 2021 +1100
+
+    Final coding for all functioning completed
+
+commit 0163cb8a03b097a5f0ab2d63b711a1bf33a5130f
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 18:14:01 2021 +1100
+
+    Blog Posts improved
+
+commit a5fac78189b8b09d57127a4bdab14457cb9f0ca1
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 18:01:41 2021 +1100
+
+    Blog Posts Completed
+
+commit c1a910255222adb48a7d1021e78777bc40ce7354
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 15:59:56 2021 +1100
+
+    Hamburger Nav bar improved
+
+commit d61c427c983a936e3b32786d7403b24249993bd8
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 15:00:15 2021 +1100
+
+    About Me Section fully completed
+
+commit 28a640318c602d35eb2f42de6e39570bd1d687d2
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 11:19:20 2021 +1100
+
+    My Work Heading re-adjusted
+
+commit 940b309ba204fe7c538df3ebd017a1fc476f1cfd
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 11:15:17 2021 +1100
+
+    My Work Flexgap adjusted
+
+commit ca8cfe525ae98f98c76a5a77a71c4a1dea369ea5
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 11:10:04 2021 +1100
+
+    My Work bugs fixed
+
+commit 28483bb96da42ac3dfc0f61f3e58bd374685072f
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 10:52:36 2021 +1100
+
+    My Work page made responsive
+
+commit a55c1789e5ff08d57f37d3406607826b8dd784c3
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 14 07:56:04 2021 +1100
+
+    Nav bars made responsive for all pages
+
+commit ffe6c16f2b7e1e261525056217459ba5beac1741
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Thu Nov 11 16:36:00 2021 +1100
+
+    Welcome page made more recursive
+
+commit b5c2bad5f6c209d7249e89a61941ce84c3118eed
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Thu Nov 11 10:47:03 2021 +1100
+
+    Welcome Page made to more suitable for mobile
+
+commit 447f4a49303d877f2c0c05e226f91369a0743742
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Thu Nov 11 01:36:02 2021 +1100
+
+    Top Nav bar modified for different scree sizes
+
+commit 74418127f716e6d33396d2118261dc6ba11a5715
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Thu Nov 11 00:29:10 2021 +1100
+
+    About Me section made for mobile
+
+commit 7b67a0a947612ade5c9e415b4ba18b7bfd4ae869
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Tue Nov 9 12:21:11 2021 +1100
+
+    AboutMe page bugs fixed
+
+commit 70721635299211fefcf7ffdefe43478624983a3a
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Tue Nov 9 12:07:43 2021 +1100
+
+    AboutMe page made for mobile
+
+commit ec5493ab0332ee1c77e3bba8d659f5ef9599848f
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Tue Nov 9 09:57:45 2021 +1100
+
+    Contact page made for tablet
+
+commit 0111db688c97b9cef2d0fe75a011b23ee4da4a55
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Tue Nov 9 09:50:01 2021 +1100
+
+    Contact Page made for Mobile
+
+commit d2d0413212e7318dff1c31540eab2f2c300eab78
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Mon Nov 8 17:29:33 2021 +1100
+
+    Side Navbar chagned for mobile in Contact page
+
+commit 2af19b6944fc89a730a27de0fb114caf4207d205
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Mon Nov 8 16:33:24 2021 +1100
+
+    MyWork Section Improved
+
+commit f2fada9fe5279cf0cd9ebae03ab4b9774cefa5c5
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Mon Nov 8 13:58:09 2021 +1100
+
+    MYWork Section Basic Outline completed
+
+commit 218db52ec759f63f73fb5779395e96299195a00e
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Mon Nov 8 10:20:54 2021 +1100
+
+    Outline for AboutMe Completed
+
+commit bea00df3bb0e0ea9d21a6d66c2048ab08839f0ee
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 20:49:33 2021 +1100
+
+    icons for Resume and email added
+
+commit 28bf6cd4ca96f9e6d1197f4afd9cf2cb60633ae8
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 19:39:23 2021 +1100
+
+    About Me photo uploaded and nav bar modified
+
+commit 01806993d4851094d1609745bc92d4d72a567aa7
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 17:10:33 2021 +1100
+
+    Created Left Nav Bar for all files
+
+commit f616616b444ae8c591e92b6f13ad2ce1f32a4c09
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 16:33:10 2021 +1100
+
+    Completed Contact Page
+
+commit 5b3e5f26e2779e4b4cca3b96da9d524704be6f34
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 10:44:39 2021 +1100
+
+    Contact Section Added
+
+commit fcb413bac9d5f543c85e570b6dc22b1f8676dd7f
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 08:44:59 2021 +1100
+
+    Fixed Not Deploying issue
+
+commit 84e7cd820a0be79b19491fc9f92149bd716c6e1c
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 08:25:09 2021 +1100
+
+    Organized files in Folders
+
+commit 55e3c9913b40571c9b36e771e5cbaf0979807681
+Author: Anup-SoftwareDev <joseph.anupsa@gmail.com>
+Date:   Sun Nov 7 07:45:05 2021 +1100
+
+    first commit
