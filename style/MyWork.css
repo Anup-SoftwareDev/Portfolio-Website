@@ -88,7 +88,7 @@
     
     background-color: cadetblue;
     Position:absolute;
-    Margin: 800px 100px 0 230px;
+    Margin: 1000px 100px 0 230px;
     
   }
   .VHDL_FPGA{
@@ -96,14 +96,14 @@
     background-color: cadetblue;
     Position:absolute;
     
-    Margin: 550px 100px 0 230px;
+    Margin: 750px 100px 0 230px;
   }
   .VB_Prog{
     
     background-color: cadetblue;
     Position:absolute;
     
-    Margin: 1050px 100px 0 230px;
+    Margin: 1250px 100px 0 230px;
   }
 
   h1{

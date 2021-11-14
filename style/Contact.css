@@ -24,7 +24,7 @@
   }
   .contact-section{
       position: absolute;
-      margin-top: 100px;
+      margin-top: 75px;
       margin-left: 225px;
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
@@ -103,7 +103,7 @@
   }
   .contact-section{
     position: fixed;
-    margin-top: 270px;
+    margin-top: 200px;
     margin-left: 20px;
     z-index: -2;
 }nav{
