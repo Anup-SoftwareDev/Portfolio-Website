@@ -22,18 +22,18 @@
       color: white;
   }
   .Resume img{
-    margin-left: 60px;
+    margin-left: 10px;
     border-radius: 30%;
   }
 
  .GitHub img{
-    margin-left: 70px;
+    margin-left: 10px;
  }
  .Linkedin img{
-    margin-left: 70px;
+    margin-left: 10px;
  }
  .email img{
-  margin-left: 60px;
+  margin-left: 10px;
 }
 
   nav{
@@ -48,7 +48,7 @@
     
     display:flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
     position:fixed;
     /*margin-left: 30px;*/
     margin-top: 15px;
@@ -242,7 +242,7 @@
       height: 10px;
       width: 10px; 
       Margin: 200px 0 0 0px;
-      gap: 10px;
+      gap: 20px;
     }  
     .icons img{
       height: 40px;
@@ -251,23 +251,30 @@
     .HTML_CSS{ 
       margin-left: 0;
       margin-top:280px;
-      max-width: 460px;
+      width: auto;
+      height:auto;
+      
     }
     .C_Prog{
       margin-left: 0;
-      margin-top:700px;
-      max-width: 460px;
+      width:auto;
+      height:inherit;
+      
+      
       
     }
     .VHDL_FPGA{
       margin-left: 0;
-      margin-top:1120px;
-      max-width: 460px;
+      width:auto;
+      height:inherit;
+      
+      
     }
     .VB_Prog{
       margin-left: 0;
-      margin-top:1540px;
-      max-width: 460px;
+      width:auto;
+      height:inherit;
+      
     }
   .Page_items{
     display:flex;
