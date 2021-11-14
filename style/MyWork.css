@@ -269,6 +269,10 @@
       margin-top:1540px;
       max-width: 460px;
     }
+  .Page_items{
+    display:flex;
+    flex-direction:column
   
+  }
 
 }
